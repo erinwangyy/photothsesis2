@@ -1,0 +1,106 @@
+body{
+   
+background-image: url(assets/pictures/augustine-wong-kTg4NXEmfs8-unsplash.jpg);
+cursor:default;
+overflow:hidden;
+
+}
+.cursor{
+    position: relative;
+    font-size: 0.8em;
+    /* opacity:0; */
+    color:black;
+
+}
+.maincontainer{
+    width:120vw;
+    height:100vh;
+display: grid;
+grid-template-columns: 1fr 1fr;
+font-size: 1.5em;
+margin-left: 2vw;
+overflow:hidden;
+overflow: scroll;
+padding-top: 5vh;
+/* font-family: 'Bebas Neue', cursive; */
+font-family: 'Roboto', sans-serif;
+}
+
+.list1{
+    display:grid;
+    grid-row-gap:0.2em;
+    grid-template-columns: 1fr 6fr;
+}
+.list2{
+
+  margin-left: 2vw;
+    display:grid;
+    grid-template-columns: 1fr 6fr;
+}
+.name:hover{
+    cursor:e-resize;
+    color: blue;
+}
+.ending{
+    margin-top: 5vh;
+padding-top:10vh;
+    /* background-color:rgb(255, 255, 255,0.5); */
+    width:120vw;
+
+    font-size: 0.8em;
+    color:grey;
+    border-bottom: dotted black 1px;
+}
+.header{
+    width:120vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title{
+   height:5vh;
+  border-top: dotted black 1px;
+}
+
+.introduction{
+
+display:none;
+height:30vh;
+}
+.text{
+text-align: center;
+padding-left: 15vw;
+width:70vw;
+padding-top: 10vh;
+font-size:1.2em;
+}
+
+
+
+.loading {padding-top: 40vh;
+    padding-left: 20vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 1000;
+}
+.text0:hover{
+    color:blue
+}
+.text0{
+font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.introduction{
+    cursor:default;
+}
+.text2{
+    position: relative;
+
+    font-size: 30px;
+
+   
+}
